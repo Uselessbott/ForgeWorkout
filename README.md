@@ -47,14 +47,9 @@ docs/                  Program JSON Schema + human-readable docs + examples
 assets/                Icons, logo, bundled sample program
 ```
 
-## Running in development (Replit)
+## Building the Android App
 
-This project is set up to run inside Replit's Expo tooling — the `dev`
-workflow starts `expo start` bound to the Replit-managed port and proxy
-domain automatically. Use the Replit preview pane or the Expo Go app via the
-QR code Expo prints.
 
-## Building the Android app (outside Replit / in Android Studio)
 
 The `android/` folder in this project is a **generated native project**
 (via `npx expo prebuild -p android`) and is ready to open directly in Android

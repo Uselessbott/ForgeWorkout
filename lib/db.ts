@@ -15,7 +15,7 @@ import { CURRENT_SCHEMA_VERSION, MealType, ProgramFile } from '@/types/program';
 /**
  * expo-sqlite's web implementation requires SharedArrayBuffer /
  * cross-origin isolation (COOP/COEP), which is not available behind
- * Replit's preview proxy. We only ever construct the real native database
+ * Native database initialization.
  * on iOS/Android; on web we fall back to a harmless in-memory stub so the
  * app can render an explanatory screen instead of crashing at import time.
  * See `app/_layout.tsx` (WebUnsupportedScreen) for the user-facing message.
