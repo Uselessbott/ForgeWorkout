@@ -1,4 +1,4 @@
-name: Build Release APK
+name: Build ForgeWorkout APK
 
 on:
   push:
@@ -20,30 +20,57 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
+          cache: 'npm'
 
-      - run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Build Release APK
+      - name: Build APK
+        continue-on-error: true
         run: |
           chmod +x android/gradlew
           cd android
-          ./gradlew clean
-          ./gradlew assembleRelease --stacktrace | tee ../build.log
+          ./gradlew clean assembleRelease --stacktrace --warning-mode all 2>&1 | tee ../build.log
 
-      - name: Verify JS bundle
+      - name: Extract Errors
+        if: always()
         run: |
-          find android/app/build -name "*.bundle" || true
+          grep -Ei \
+          "FAILURE:|BUILD FAILED|BUILD SUCCESSFUL|Execution failed|Exception|Error:|Caused by:|> Task .* FAILED|Process .* finished with non-zero exit value|Could not|Cannot find module|A problem occurred|What went wrong" \
+          build.log > errors.log || true
+
+      - name: Build Summary
+        if: always()
+        run: |
+          {
+            echo "===== BUILD SUMMARY ====="
+            echo
+            grep -E "BUILD SUCCESSFUL|BUILD FAILED|FAILURE:" build.log || true
+            echo
+            echo "===== FAILED TASKS ====="
+            grep -E "> Task .*FAILED" build.log || true
+            echo
+            echo "===== EXCEPTIONS ====="
+            grep -E "Execution failed|Exception|Caused by:" build.log || true
+          } > summary.txt
 
       - name: Upload APK
+        if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: ForgeWorkout-release
+          name: ForgeWorkout-release-apk
           path: android/app/build/outputs/apk/release/*.apk
 
-      - name: Upload Build Log
+      - name: Upload Logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: build-log
-          path: build.log
+          name: ForgeWorkout-build-logs
+          path: |
+            build.log
+            errors.log
+            summary.txt
+
+      - name: Fail if build failed
+        run: |
+          grep -q "BUILD SUCCESSFUL" build.log
