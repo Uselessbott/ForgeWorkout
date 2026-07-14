@@ -1,0 +1,2562 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "name": "4-Week Forge Builder",
+    "description": "A procedurally generated 30-day program cycling push/pull/legs/upper/full-body training with rest days, plus full daily meal plans. Useful for testing calendars, streaks, and monthly stats.",
+    "durationDays": 30,
+    "targetCalories": 2600,
+    "targetProtein": 165,
+    "notes": "Example program generated for documentation and testing purposes."
+  },
+  "days": [
+    {
+      "day": 1,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Egg whites omelette",
+                "quantity": "4 eggs",
+                "calories": 280,
+                "protein": 30,
+                "carbs": 4,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Beef and rice bowl",
+                "quantity": "1 bowl",
+                "calories": 520,
+                "protein": 42,
+                "carbs": 55,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Chicken fajitas",
+                "quantity": "1 plate",
+                "calories": 480,
+                "protein": 40,
+                "carbs": 40,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Protein shake",
+                "quantity": "1 scoop",
+                "calories": 130,
+                "protein": 25,
+                "carbs": 4,
+                "fat": 2
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Push Day",
+        "exercises": [
+          {
+            "name": "Barbell Bench Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "60kg"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 3,
+            "reps": "10",
+            "weight": "35kg"
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          },
+          {
+            "name": "Triceps Pushdown",
+            "sets": 3,
+            "reps": "15",
+            "weight": "25kg"
+          },
+          {
+            "name": "Lateral Raise",
+            "sets": 3,
+            "reps": "15",
+            "weight": "8kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 2,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Protein pancakes",
+                "quantity": "3 pancakes",
+                "calories": 400,
+                "protein": 32,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Chicken Caesar salad",
+                "quantity": "1 plate",
+                "calories": 440,
+                "protein": 40,
+                "carbs": 15,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Roast chicken with sweet potato",
+                "quantity": "1 plate",
+                "calories": 470,
+                "protein": 42,
+                "carbs": 45,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Cottage cheese",
+                "quantity": "1 cup",
+                "calories": 180,
+                "protein": 24,
+                "carbs": 8,
+                "fat": 5
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Pull Day",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 4,
+            "reps": "6",
+            "weight": "90kg"
+          },
+          {
+            "name": "Pull-Ups",
+            "sets": 4,
+            "reps": "10"
+          },
+          {
+            "name": "Barbell Row",
+            "sets": 3,
+            "reps": "10",
+            "weight": "50kg"
+          },
+          {
+            "name": "Face Pull",
+            "sets": 3,
+            "reps": "15",
+            "weight": "15kg"
+          },
+          {
+            "name": "Barbell Curl",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 3,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Avocado toast with eggs",
+                "quantity": "2 slices",
+                "calories": 430,
+                "protein": 22,
+                "carbs": 35,
+                "fat": 22
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Tuna poke bowl",
+                "quantity": "1 bowl",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 45,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Salmon with vegetables",
+                "quantity": "1 plate",
+                "calories": 490,
+                "protein": 45,
+                "carbs": 20,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Almonds",
+                "quantity": "30g",
+                "calories": 170,
+                "protein": 6,
+                "carbs": 6,
+                "fat": 15
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 4,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Smoothie bowl",
+                "quantity": "1 bowl",
+                "calories": 380,
+                "protein": 20,
+                "carbs": 55,
+                "fat": 9
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Veggie omelette",
+                "quantity": "3 eggs",
+                "calories": 360,
+                "protein": 26,
+                "carbs": 8,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Lean beef stir fry",
+                "quantity": "200g",
+                "calories": 410,
+                "protein": 45,
+                "carbs": 25,
+                "fat": 15
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Rice cakes with peanut butter",
+                "quantity": "2 cakes",
+                "calories": 200,
+                "protein": 6,
+                "carbs": 22,
+                "fat": 10
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Leg Day",
+        "exercises": [
+          {
+            "name": "Back Squat",
+            "sets": 4,
+            "reps": "8",
+            "weight": "80kg"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "sets": 3,
+            "reps": "10",
+            "weight": "60kg"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "120kg"
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Calf Raise",
+            "sets": 4,
+            "reps": "15",
+            "weight": "40kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 5,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Peanut butter toast",
+                "quantity": "2 slices",
+                "calories": 420,
+                "protein": 18,
+                "carbs": 45,
+                "fat": 20
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Grilled chicken with rice",
+                "quantity": "1 plate",
+                "calories": 535,
+                "protein": 66,
+                "carbs": 45,
+                "fat": 7
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Baked cod with potatoes",
+                "quantity": "1 plate",
+                "calories": 400,
+                "protein": 34,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Greek yogurt",
+                "quantity": "1 cup",
+                "calories": 150,
+                "protein": 17,
+                "carbs": 8,
+                "fat": 4
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Upper Body Conditioning",
+        "exercises": [
+          {
+            "name": "Push Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "40kg"
+          },
+          {
+            "name": "Chin-Ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Dumbbell Chest Fly",
+            "sets": 3,
+            "reps": "12",
+            "weight": "12kg"
+          },
+          {
+            "name": "Cable Row",
+            "sets": 3,
+            "reps": "12",
+            "weight": "35kg"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "45s"
+          }
+        ]
+      }
+    },
+    {
+      "day": 6,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Fruit and yogurt bowl",
+                "quantity": "1 bowl",
+                "calories": 320,
+                "protein": 16,
+                "carbs": 50,
+                "fat": 6
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Turkey wrap",
+                "quantity": "1 wrap",
+                "calories": 420,
+                "protein": 35,
+                "carbs": 40,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Grilled shrimp tacos",
+                "quantity": "3 tacos",
+                "calories": 430,
+                "protein": 36,
+                "carbs": 38,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Protein shake",
+                "quantity": "1 scoop",
+                "calories": 130,
+                "protein": 25,
+                "carbs": 4,
+                "fat": 2
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Full Body Circuit",
+        "exercises": [
+          {
+            "name": "Kettlebell Swing",
+            "sets": 4,
+            "reps": "15",
+            "weight": "16kg"
+          },
+          {
+            "name": "Goblet Squat",
+            "sets": 3,
+            "reps": "15",
+            "weight": "20kg"
+          },
+          {
+            "name": "Push-Ups",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": "40s"
+          },
+          {
+            "name": "Russian Twist",
+            "sets": 3,
+            "reps": "20"
+          }
+        ]
+      }
+    },
+    {
+      "day": 7,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Oats with whey",
+                "quantity": "1 bowl",
+                "calories": 450,
+                "protein": 35,
+                "carbs": 55,
+                "fat": 8
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Quinoa salad with chicken",
+                "quantity": "1 plate",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 42,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Turkey meatballs with pasta",
+                "quantity": "1 plate",
+                "calories": 500,
+                "protein": 38,
+                "carbs": 50,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Cottage cheese",
+                "quantity": "1 cup",
+                "calories": 180,
+                "protein": 24,
+                "carbs": 8,
+                "fat": 5
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 8,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Egg whites omelette",
+                "quantity": "4 eggs",
+                "calories": 280,
+                "protein": 30,
+                "carbs": 4,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Beef and rice bowl",
+                "quantity": "1 bowl",
+                "calories": 520,
+                "protein": 42,
+                "carbs": 55,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Chicken fajitas",
+                "quantity": "1 plate",
+                "calories": 480,
+                "protein": 40,
+                "carbs": 40,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Almonds",
+                "quantity": "30g",
+                "calories": 170,
+                "protein": 6,
+                "carbs": 6,
+                "fat": 15
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Push Day",
+        "exercises": [
+          {
+            "name": "Barbell Bench Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "60kg"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 3,
+            "reps": "10",
+            "weight": "35kg"
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          },
+          {
+            "name": "Triceps Pushdown",
+            "sets": 3,
+            "reps": "15",
+            "weight": "25kg"
+          },
+          {
+            "name": "Lateral Raise",
+            "sets": 3,
+            "reps": "15",
+            "weight": "8kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 9,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Protein pancakes",
+                "quantity": "3 pancakes",
+                "calories": 400,
+                "protein": 32,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Chicken Caesar salad",
+                "quantity": "1 plate",
+                "calories": 440,
+                "protein": 40,
+                "carbs": 15,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Roast chicken with sweet potato",
+                "quantity": "1 plate",
+                "calories": 470,
+                "protein": 42,
+                "carbs": 45,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Rice cakes with peanut butter",
+                "quantity": "2 cakes",
+                "calories": 200,
+                "protein": 6,
+                "carbs": 22,
+                "fat": 10
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Pull Day",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 4,
+            "reps": "6",
+            "weight": "90kg"
+          },
+          {
+            "name": "Pull-Ups",
+            "sets": 4,
+            "reps": "10"
+          },
+          {
+            "name": "Barbell Row",
+            "sets": 3,
+            "reps": "10",
+            "weight": "50kg"
+          },
+          {
+            "name": "Face Pull",
+            "sets": 3,
+            "reps": "15",
+            "weight": "15kg"
+          },
+          {
+            "name": "Barbell Curl",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 10,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Avocado toast with eggs",
+                "quantity": "2 slices",
+                "calories": 430,
+                "protein": 22,
+                "carbs": 35,
+                "fat": 22
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Tuna poke bowl",
+                "quantity": "1 bowl",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 45,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Salmon with vegetables",
+                "quantity": "1 plate",
+                "calories": 490,
+                "protein": 45,
+                "carbs": 20,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Greek yogurt",
+                "quantity": "1 cup",
+                "calories": 150,
+                "protein": 17,
+                "carbs": 8,
+                "fat": 4
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 11,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Smoothie bowl",
+                "quantity": "1 bowl",
+                "calories": 380,
+                "protein": 20,
+                "carbs": 55,
+                "fat": 9
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Veggie omelette",
+                "quantity": "3 eggs",
+                "calories": 360,
+                "protein": 26,
+                "carbs": 8,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Lean beef stir fry",
+                "quantity": "200g",
+                "calories": 410,
+                "protein": 45,
+                "carbs": 25,
+                "fat": 15
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Protein shake",
+                "quantity": "1 scoop",
+                "calories": 130,
+                "protein": 25,
+                "carbs": 4,
+                "fat": 2
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Leg Day",
+        "exercises": [
+          {
+            "name": "Back Squat",
+            "sets": 4,
+            "reps": "8",
+            "weight": "80kg"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "sets": 3,
+            "reps": "10",
+            "weight": "60kg"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "120kg"
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Calf Raise",
+            "sets": 4,
+            "reps": "15",
+            "weight": "40kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 12,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Peanut butter toast",
+                "quantity": "2 slices",
+                "calories": 420,
+                "protein": 18,
+                "carbs": 45,
+                "fat": 20
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Grilled chicken with rice",
+                "quantity": "1 plate",
+                "calories": 535,
+                "protein": 66,
+                "carbs": 45,
+                "fat": 7
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Baked cod with potatoes",
+                "quantity": "1 plate",
+                "calories": 400,
+                "protein": 34,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Cottage cheese",
+                "quantity": "1 cup",
+                "calories": 180,
+                "protein": 24,
+                "carbs": 8,
+                "fat": 5
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Upper Body Conditioning",
+        "exercises": [
+          {
+            "name": "Push Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "40kg"
+          },
+          {
+            "name": "Chin-Ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Dumbbell Chest Fly",
+            "sets": 3,
+            "reps": "12",
+            "weight": "12kg"
+          },
+          {
+            "name": "Cable Row",
+            "sets": 3,
+            "reps": "12",
+            "weight": "35kg"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "45s"
+          }
+        ]
+      }
+    },
+    {
+      "day": 13,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Fruit and yogurt bowl",
+                "quantity": "1 bowl",
+                "calories": 320,
+                "protein": 16,
+                "carbs": 50,
+                "fat": 6
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Turkey wrap",
+                "quantity": "1 wrap",
+                "calories": 420,
+                "protein": 35,
+                "carbs": 40,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Grilled shrimp tacos",
+                "quantity": "3 tacos",
+                "calories": 430,
+                "protein": 36,
+                "carbs": 38,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Almonds",
+                "quantity": "30g",
+                "calories": 170,
+                "protein": 6,
+                "carbs": 6,
+                "fat": 15
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Full Body Circuit",
+        "exercises": [
+          {
+            "name": "Kettlebell Swing",
+            "sets": 4,
+            "reps": "15",
+            "weight": "16kg"
+          },
+          {
+            "name": "Goblet Squat",
+            "sets": 3,
+            "reps": "15",
+            "weight": "20kg"
+          },
+          {
+            "name": "Push-Ups",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": "40s"
+          },
+          {
+            "name": "Russian Twist",
+            "sets": 3,
+            "reps": "20"
+          }
+        ]
+      }
+    },
+    {
+      "day": 14,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Oats with whey",
+                "quantity": "1 bowl",
+                "calories": 450,
+                "protein": 35,
+                "carbs": 55,
+                "fat": 8
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Quinoa salad with chicken",
+                "quantity": "1 plate",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 42,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Turkey meatballs with pasta",
+                "quantity": "1 plate",
+                "calories": 500,
+                "protein": 38,
+                "carbs": 50,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Rice cakes with peanut butter",
+                "quantity": "2 cakes",
+                "calories": 200,
+                "protein": 6,
+                "carbs": 22,
+                "fat": 10
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 15,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Egg whites omelette",
+                "quantity": "4 eggs",
+                "calories": 280,
+                "protein": 30,
+                "carbs": 4,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Beef and rice bowl",
+                "quantity": "1 bowl",
+                "calories": 520,
+                "protein": 42,
+                "carbs": 55,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Chicken fajitas",
+                "quantity": "1 plate",
+                "calories": 480,
+                "protein": 40,
+                "carbs": 40,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Greek yogurt",
+                "quantity": "1 cup",
+                "calories": 150,
+                "protein": 17,
+                "carbs": 8,
+                "fat": 4
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Push Day",
+        "exercises": [
+          {
+            "name": "Barbell Bench Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "60kg"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 3,
+            "reps": "10",
+            "weight": "35kg"
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          },
+          {
+            "name": "Triceps Pushdown",
+            "sets": 3,
+            "reps": "15",
+            "weight": "25kg"
+          },
+          {
+            "name": "Lateral Raise",
+            "sets": 3,
+            "reps": "15",
+            "weight": "8kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 16,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Protein pancakes",
+                "quantity": "3 pancakes",
+                "calories": 400,
+                "protein": 32,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Chicken Caesar salad",
+                "quantity": "1 plate",
+                "calories": 440,
+                "protein": 40,
+                "carbs": 15,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Roast chicken with sweet potato",
+                "quantity": "1 plate",
+                "calories": 470,
+                "protein": 42,
+                "carbs": 45,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Protein shake",
+                "quantity": "1 scoop",
+                "calories": 130,
+                "protein": 25,
+                "carbs": 4,
+                "fat": 2
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Pull Day",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 4,
+            "reps": "6",
+            "weight": "90kg"
+          },
+          {
+            "name": "Pull-Ups",
+            "sets": 4,
+            "reps": "10"
+          },
+          {
+            "name": "Barbell Row",
+            "sets": 3,
+            "reps": "10",
+            "weight": "50kg"
+          },
+          {
+            "name": "Face Pull",
+            "sets": 3,
+            "reps": "15",
+            "weight": "15kg"
+          },
+          {
+            "name": "Barbell Curl",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 17,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Avocado toast with eggs",
+                "quantity": "2 slices",
+                "calories": 430,
+                "protein": 22,
+                "carbs": 35,
+                "fat": 22
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Tuna poke bowl",
+                "quantity": "1 bowl",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 45,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Salmon with vegetables",
+                "quantity": "1 plate",
+                "calories": 490,
+                "protein": 45,
+                "carbs": 20,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Cottage cheese",
+                "quantity": "1 cup",
+                "calories": 180,
+                "protein": 24,
+                "carbs": 8,
+                "fat": 5
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 18,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Smoothie bowl",
+                "quantity": "1 bowl",
+                "calories": 380,
+                "protein": 20,
+                "carbs": 55,
+                "fat": 9
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Veggie omelette",
+                "quantity": "3 eggs",
+                "calories": 360,
+                "protein": 26,
+                "carbs": 8,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Lean beef stir fry",
+                "quantity": "200g",
+                "calories": 410,
+                "protein": 45,
+                "carbs": 25,
+                "fat": 15
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Almonds",
+                "quantity": "30g",
+                "calories": 170,
+                "protein": 6,
+                "carbs": 6,
+                "fat": 15
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Leg Day",
+        "exercises": [
+          {
+            "name": "Back Squat",
+            "sets": 4,
+            "reps": "8",
+            "weight": "80kg"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "sets": 3,
+            "reps": "10",
+            "weight": "60kg"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "120kg"
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Calf Raise",
+            "sets": 4,
+            "reps": "15",
+            "weight": "40kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 19,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Peanut butter toast",
+                "quantity": "2 slices",
+                "calories": 420,
+                "protein": 18,
+                "carbs": 45,
+                "fat": 20
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Grilled chicken with rice",
+                "quantity": "1 plate",
+                "calories": 535,
+                "protein": 66,
+                "carbs": 45,
+                "fat": 7
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Baked cod with potatoes",
+                "quantity": "1 plate",
+                "calories": 400,
+                "protein": 34,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Rice cakes with peanut butter",
+                "quantity": "2 cakes",
+                "calories": 200,
+                "protein": 6,
+                "carbs": 22,
+                "fat": 10
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Upper Body Conditioning",
+        "exercises": [
+          {
+            "name": "Push Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "40kg"
+          },
+          {
+            "name": "Chin-Ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Dumbbell Chest Fly",
+            "sets": 3,
+            "reps": "12",
+            "weight": "12kg"
+          },
+          {
+            "name": "Cable Row",
+            "sets": 3,
+            "reps": "12",
+            "weight": "35kg"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "45s"
+          }
+        ]
+      }
+    },
+    {
+      "day": 20,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Fruit and yogurt bowl",
+                "quantity": "1 bowl",
+                "calories": 320,
+                "protein": 16,
+                "carbs": 50,
+                "fat": 6
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Turkey wrap",
+                "quantity": "1 wrap",
+                "calories": 420,
+                "protein": 35,
+                "carbs": 40,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Grilled shrimp tacos",
+                "quantity": "3 tacos",
+                "calories": 430,
+                "protein": 36,
+                "carbs": 38,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Greek yogurt",
+                "quantity": "1 cup",
+                "calories": 150,
+                "protein": 17,
+                "carbs": 8,
+                "fat": 4
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Full Body Circuit",
+        "exercises": [
+          {
+            "name": "Kettlebell Swing",
+            "sets": 4,
+            "reps": "15",
+            "weight": "16kg"
+          },
+          {
+            "name": "Goblet Squat",
+            "sets": 3,
+            "reps": "15",
+            "weight": "20kg"
+          },
+          {
+            "name": "Push-Ups",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": "40s"
+          },
+          {
+            "name": "Russian Twist",
+            "sets": 3,
+            "reps": "20"
+          }
+        ]
+      }
+    },
+    {
+      "day": 21,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Oats with whey",
+                "quantity": "1 bowl",
+                "calories": 450,
+                "protein": 35,
+                "carbs": 55,
+                "fat": 8
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Quinoa salad with chicken",
+                "quantity": "1 plate",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 42,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Turkey meatballs with pasta",
+                "quantity": "1 plate",
+                "calories": 500,
+                "protein": 38,
+                "carbs": 50,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Protein shake",
+                "quantity": "1 scoop",
+                "calories": 130,
+                "protein": 25,
+                "carbs": 4,
+                "fat": 2
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 22,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Egg whites omelette",
+                "quantity": "4 eggs",
+                "calories": 280,
+                "protein": 30,
+                "carbs": 4,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Beef and rice bowl",
+                "quantity": "1 bowl",
+                "calories": 520,
+                "protein": 42,
+                "carbs": 55,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Chicken fajitas",
+                "quantity": "1 plate",
+                "calories": 480,
+                "protein": 40,
+                "carbs": 40,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Cottage cheese",
+                "quantity": "1 cup",
+                "calories": 180,
+                "protein": 24,
+                "carbs": 8,
+                "fat": 5
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Push Day",
+        "exercises": [
+          {
+            "name": "Barbell Bench Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "60kg"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 3,
+            "reps": "10",
+            "weight": "35kg"
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          },
+          {
+            "name": "Triceps Pushdown",
+            "sets": 3,
+            "reps": "15",
+            "weight": "25kg"
+          },
+          {
+            "name": "Lateral Raise",
+            "sets": 3,
+            "reps": "15",
+            "weight": "8kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 23,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Protein pancakes",
+                "quantity": "3 pancakes",
+                "calories": 400,
+                "protein": 32,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Chicken Caesar salad",
+                "quantity": "1 plate",
+                "calories": 440,
+                "protein": 40,
+                "carbs": 15,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Roast chicken with sweet potato",
+                "quantity": "1 plate",
+                "calories": 470,
+                "protein": 42,
+                "carbs": 45,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Almonds",
+                "quantity": "30g",
+                "calories": 170,
+                "protein": 6,
+                "carbs": 6,
+                "fat": 15
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Pull Day",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 4,
+            "reps": "6",
+            "weight": "90kg"
+          },
+          {
+            "name": "Pull-Ups",
+            "sets": 4,
+            "reps": "10"
+          },
+          {
+            "name": "Barbell Row",
+            "sets": 3,
+            "reps": "10",
+            "weight": "50kg"
+          },
+          {
+            "name": "Face Pull",
+            "sets": 3,
+            "reps": "15",
+            "weight": "15kg"
+          },
+          {
+            "name": "Barbell Curl",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 24,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Avocado toast with eggs",
+                "quantity": "2 slices",
+                "calories": 430,
+                "protein": 22,
+                "carbs": 35,
+                "fat": 22
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Tuna poke bowl",
+                "quantity": "1 bowl",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 45,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Salmon with vegetables",
+                "quantity": "1 plate",
+                "calories": 490,
+                "protein": 45,
+                "carbs": 20,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Rice cakes with peanut butter",
+                "quantity": "2 cakes",
+                "calories": 200,
+                "protein": 6,
+                "carbs": 22,
+                "fat": 10
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 25,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Smoothie bowl",
+                "quantity": "1 bowl",
+                "calories": 380,
+                "protein": 20,
+                "carbs": 55,
+                "fat": 9
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Veggie omelette",
+                "quantity": "3 eggs",
+                "calories": 360,
+                "protein": 26,
+                "carbs": 8,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Lean beef stir fry",
+                "quantity": "200g",
+                "calories": 410,
+                "protein": 45,
+                "carbs": 25,
+                "fat": 15
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Greek yogurt",
+                "quantity": "1 cup",
+                "calories": 150,
+                "protein": 17,
+                "carbs": 8,
+                "fat": 4
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Leg Day",
+        "exercises": [
+          {
+            "name": "Back Squat",
+            "sets": 4,
+            "reps": "8",
+            "weight": "80kg"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "sets": 3,
+            "reps": "10",
+            "weight": "60kg"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "120kg"
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Calf Raise",
+            "sets": 4,
+            "reps": "15",
+            "weight": "40kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 26,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Peanut butter toast",
+                "quantity": "2 slices",
+                "calories": 420,
+                "protein": 18,
+                "carbs": 45,
+                "fat": 20
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Grilled chicken with rice",
+                "quantity": "1 plate",
+                "calories": 535,
+                "protein": 66,
+                "carbs": 45,
+                "fat": 7
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Baked cod with potatoes",
+                "quantity": "1 plate",
+                "calories": 400,
+                "protein": 34,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Protein shake",
+                "quantity": "1 scoop",
+                "calories": 130,
+                "protein": 25,
+                "carbs": 4,
+                "fat": 2
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Upper Body Conditioning",
+        "exercises": [
+          {
+            "name": "Push Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "40kg"
+          },
+          {
+            "name": "Chin-Ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Dumbbell Chest Fly",
+            "sets": 3,
+            "reps": "12",
+            "weight": "12kg"
+          },
+          {
+            "name": "Cable Row",
+            "sets": 3,
+            "reps": "12",
+            "weight": "35kg"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "45s"
+          }
+        ]
+      }
+    },
+    {
+      "day": 27,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Fruit and yogurt bowl",
+                "quantity": "1 bowl",
+                "calories": 320,
+                "protein": 16,
+                "carbs": 50,
+                "fat": 6
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Turkey wrap",
+                "quantity": "1 wrap",
+                "calories": 420,
+                "protein": 35,
+                "carbs": 40,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Grilled shrimp tacos",
+                "quantity": "3 tacos",
+                "calories": 430,
+                "protein": 36,
+                "carbs": 38,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Cottage cheese",
+                "quantity": "1 cup",
+                "calories": 180,
+                "protein": 24,
+                "carbs": 8,
+                "fat": 5
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Full Body Circuit",
+        "exercises": [
+          {
+            "name": "Kettlebell Swing",
+            "sets": 4,
+            "reps": "15",
+            "weight": "16kg"
+          },
+          {
+            "name": "Goblet Squat",
+            "sets": 3,
+            "reps": "15",
+            "weight": "20kg"
+          },
+          {
+            "name": "Push-Ups",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": "40s"
+          },
+          {
+            "name": "Russian Twist",
+            "sets": 3,
+            "reps": "20"
+          }
+        ]
+      }
+    },
+    {
+      "day": 28,
+      "isRestDay": true,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Oats with whey",
+                "quantity": "1 bowl",
+                "calories": 450,
+                "protein": 35,
+                "carbs": 55,
+                "fat": 8
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Quinoa salad with chicken",
+                "quantity": "1 plate",
+                "calories": 460,
+                "protein": 38,
+                "carbs": 42,
+                "fat": 14
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Turkey meatballs with pasta",
+                "quantity": "1 plate",
+                "calories": 500,
+                "protein": 38,
+                "carbs": 50,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Almonds",
+                "quantity": "30g",
+                "calories": 170,
+                "protein": 6,
+                "carbs": 6,
+                "fat": 15
+              }
+            ]
+          }
+        ]
+      },
+      "notes": "Active recovery: light walk, stretching, or full rest."
+    },
+    {
+      "day": 29,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Egg whites omelette",
+                "quantity": "4 eggs",
+                "calories": 280,
+                "protein": 30,
+                "carbs": 4,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Beef and rice bowl",
+                "quantity": "1 bowl",
+                "calories": 520,
+                "protein": 42,
+                "carbs": 55,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Chicken fajitas",
+                "quantity": "1 plate",
+                "calories": 480,
+                "protein": 40,
+                "carbs": 40,
+                "fat": 16
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Rice cakes with peanut butter",
+                "quantity": "2 cakes",
+                "calories": 200,
+                "protein": 6,
+                "carbs": 22,
+                "fat": 10
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Push Day",
+        "exercises": [
+          {
+            "name": "Barbell Bench Press",
+            "sets": 4,
+            "reps": "8",
+            "weight": "60kg"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 3,
+            "reps": "10",
+            "weight": "35kg"
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          },
+          {
+            "name": "Triceps Pushdown",
+            "sets": 3,
+            "reps": "15",
+            "weight": "25kg"
+          },
+          {
+            "name": "Lateral Raise",
+            "sets": 3,
+            "reps": "15",
+            "weight": "8kg"
+          }
+        ]
+      }
+    },
+    {
+      "day": 30,
+      "isRestDay": false,
+      "diet": {
+        "meals": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "name": "Protein pancakes",
+                "quantity": "3 pancakes",
+                "calories": 400,
+                "protein": 32,
+                "carbs": 40,
+                "fat": 10
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "name": "Chicken Caesar salad",
+                "quantity": "1 plate",
+                "calories": 440,
+                "protein": 40,
+                "carbs": 15,
+                "fat": 24
+              }
+            ]
+          },
+          {
+            "type": "dinner",
+            "items": [
+              {
+                "name": "Roast chicken with sweet potato",
+                "quantity": "1 plate",
+                "calories": 470,
+                "protein": 42,
+                "carbs": 45,
+                "fat": 12
+              }
+            ]
+          },
+          {
+            "type": "snack",
+            "items": [
+              {
+                "name": "Greek yogurt",
+                "quantity": "1 cup",
+                "calories": 150,
+                "protein": 17,
+                "carbs": 8,
+                "fat": 4
+              }
+            ]
+          }
+        ]
+      },
+      "workout": {
+        "title": "Pull Day",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 4,
+            "reps": "6",
+            "weight": "90kg"
+          },
+          {
+            "name": "Pull-Ups",
+            "sets": 4,
+            "reps": "10"
+          },
+          {
+            "name": "Barbell Row",
+            "sets": 3,
+            "reps": "10",
+            "weight": "50kg"
+          },
+          {
+            "name": "Face Pull",
+            "sets": 3,
+            "reps": "15",
+            "weight": "15kg"
+          },
+          {
+            "name": "Barbell Curl",
+            "sets": 3,
+            "reps": "12",
+            "weight": "20kg"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "name": "7-Day Forge Starter",
+    "description": "A short sample program to try ForgeWorkout: 5 training days, 2 rest days, with full meal plans.",
+    "durationDays": 7,
+    "targetCalories": 2500,
+    "targetProtein": 150,
+    "notes": "Sample program bundled with the app. Replace by importing your own JSON file."
+  },
+  "days": [
+    {
+      "day": 1,
+      "isRestDay": false,
+      "workout": {
+        "title": "Push Day",
+        "exercises": [
+          { "name": "Barbell Bench Press", "sets": 4, "reps": "8", "weight": "60kg" },
+          { "name": "Overhead Press", "sets": 3, "reps": "10", "weight": "35kg" },
+          { "name": "Incline Dumbbell Press", "sets": 3, "reps": "12", "weight": "20kg" },
+          { "name": "Triceps Pushdown", "sets": 3, "reps": "15", "weight": "25kg" },
+          { "name": "Lateral Raise", "sets": 3, "reps": "15", "weight": "8kg" }
+        ]
+      },
+      "diet": {
+        "meals": [
+          { "type": "breakfast", "items": [
+            { "name": "Oats with whey", "quantity": "1 bowl", "calories": 450, "protein": 35, "carbs": 55, "fat": 8 }
+          ] },
+          { "type": "lunch", "items": [
+            { "name": "Grilled chicken breast", "quantity": "200g", "calories": 330, "protein": 62, "carbs": 0, "fat": 7 },
+            { "name": "Rice", "quantity": "1 cup", "calories": 205, "protein": 4, "carbs": 45, "fat": 0 }
+          ] },
+          { "type": "dinner", "items": [
+            { "name": "Salmon fillet", "quantity": "180g", "calories": 370, "protein": 40, "carbs": 0, "fat": 22 },
+            { "name": "Steamed vegetables", "quantity": "1 plate", "calories": 120, "protein": 5, "carbs": 20, "fat": 2 }
+          ] },
+          { "type": "snack", "items": [
+            { "name": "Greek yogurt", "quantity": "1 cup", "calories": 150, "protein": 17, "carbs": 8, "fat": 4 }
+          ] }
+        ]
+      }
+    },
+    {
+      "day": 2,
+      "isRestDay": false,
+      "workout": {
+        "title": "Pull Day",
+        "exercises": [
+          { "name": "Deadlift", "sets": 4, "reps": "6", "weight": "90kg" },
+          { "name": "Pull-Ups", "sets": 4, "reps": "10" },
+          { "name": "Barbell Row", "sets": 3, "reps": "10", "weight": "50kg" },
+          { "name": "Face Pull", "sets": 3, "reps": "15", "weight": "15kg" },
+          { "name": "Barbell Curl", "sets": 3, "reps": "12", "weight": "20kg" }
+        ]
+      },
+      "diet": {
+        "meals": [
+          { "type": "breakfast", "items": [
+            { "name": "Egg whites omelette", "quantity": "4 eggs", "calories": 280, "protein": 30, "carbs": 4, "fat": 12 }
+          ] },
+          { "type": "lunch", "items": [
+            { "name": "Turkey wrap", "quantity": "1 wrap", "calories": 420, "protein": 35, "carbs": 40, "fat": 12 }
+          ] },
+          { "type": "dinner", "items": [
+            { "name": "Lean beef stir fry", "quantity": "200g", "calories": 410, "protein": 45, "carbs": 25, "fat": 15 }
+          ] },
+          { "type": "snack", "items": [
+            { "name": "Protein shake", "quantity": "1 scoop", "calories": 130, "protein": 25, "carbs": 4, "fat": 2 }
+          ] }
+        ]
+      }
+    },
+    {
+      "day": 3,
+      "isRestDay": true,
+      "notes": "Active recovery: light walk or stretching.",
+      "diet": {
+        "meals": [
+          { "type": "breakfast", "items": [
+            { "name": "Smoothie bowl", "quantity": "1 bowl", "calories": 380, "protein": 20, "carbs": 55, "fat": 9 }
+          ] },
+          { "type": "lunch", "items": [
+            { "name": "Quinoa salad with chicken", "quantity": "1 plate", "calories": 460, "protein": 38, "carbs": 42, "fat": 14 }
+          ] },
+          { "type": "dinner", "items": [
+            { "name": "Baked cod with potatoes", "quantity": "1 plate", "calories": 400, "protein": 34, "carbs": 40, "fat": 10 }
+          ] }
+        ]
+      }
+    },
+    {
+      "day": 4,
+      "isRestDay": false,
+      "workout": {
+        "title": "Leg Day",
+        "exercises": [
+          { "name": "Back Squat", "sets": 4, "reps": "8", "weight": "80kg" },
+          { "name": "Romanian Deadlift", "sets": 3, "reps": "10", "weight": "60kg" },
+          { "name": "Leg Press", "sets": 3, "reps": "12", "weight": "120kg" },
+          { "name": "Walking Lunges", "sets": 3, "reps": "12" },
+          { "name": "Calf Raise", "sets": 4, "reps": "15", "weight": "40kg" }
+        ]
+      },
+      "diet": {
+        "meals": [
+          { "type": "breakfast", "items": [
+            { "name": "Peanut butter toast", "quantity": "2 slices", "calories": 420, "protein": 18, "carbs": 45, "fat": 20 }
+          ] },
+          { "type": "lunch", "items": [
+            { "name": "Beef and rice bowl", "quantity": "1 bowl", "calories": 520, "protein": 42, "carbs": 55, "fat": 16 }
+          ] },
+          { "type": "dinner", "items": [
+            { "name": "Grilled shrimp tacos", "quantity": "3 tacos", "calories": 430, "protein": 36, "carbs": 38, "fat": 14 }
+          ] },
+          { "type": "snack", "items": [
+            { "name": "Cottage cheese", "quantity": "1 cup", "calories": 180, "protein": 24, "carbs": 8, "fat": 5 }
+          ] }
+        ]
+      }
+    },
+    {
+      "day": 5,
+      "isRestDay": false,
+      "workout": {
+        "title": "Upper Body Conditioning",
+        "exercises": [
+          { "name": "Push Press", "sets": 4, "reps": "8", "weight": "40kg" },
+          { "name": "Chin-Ups", "sets": 3, "reps": "10" },
+          { "name": "Dumbbell Chest Fly", "sets": 3, "reps": "12", "weight": "12kg" },
+          { "name": "Cable Row", "sets": 3, "reps": "12", "weight": "35kg" },
+          { "name": "Plank", "sets": 3, "reps": "45s" }
+        ]
+      },
+      "diet": {
+        "meals": [
+          { "type": "breakfast", "items": [
+            { "name": "Protein pancakes", "quantity": "3 pancakes", "calories": 400, "protein": 32, "carbs": 40, "fat": 10 }
+          ] },
+          { "type": "lunch", "items": [
+            { "name": "Chicken Caesar salad", "quantity": "1 plate", "calories": 440, "protein": 40, "carbs": 15, "fat": 24 }
+          ] },
+          { "type": "dinner", "items": [
+            { "name": "Turkey meatballs with pasta", "quantity": "1 plate", "calories": 500, "protein": 38, "carbs": 50, "fat": 16 }
+          ] },
+          { "type": "snack", "items": [
+            { "name": "Almonds", "quantity": "30g", "calories": 170, "protein": 6, "carbs": 6, "fat": 15 }
+          ] }
+        ]
+      }
+    },
+    {
+      "day": 6,
+      "isRestDay": false,
+      "workout": {
+        "title": "Full Body Circuit",
+        "exercises": [
+          { "name": "Kettlebell Swing", "sets": 4, "reps": "15", "weight": "16kg" },
+          { "name": "Goblet Squat", "sets": 3, "reps": "15", "weight": "20kg" },
+          { "name": "Push-Ups", "sets": 3, "reps": "20" },
+          { "name": "Mountain Climbers", "sets": 3, "reps": "40s" },
+          { "name": "Russian Twist", "sets": 3, "reps": "20" }
+        ]
+      },
+      "diet": {
+        "meals": [
+          { "type": "breakfast", "items": [
+            { "name": "Avocado toast with eggs", "quantity": "2 slices", "calories": 430, "protein": 22, "carbs": 35, "fat": 22 }
+          ] },
+          { "type": "lunch", "items": [
+            { "name": "Tuna poke bowl", "quantity": "1 bowl", "calories": 460, "protein": 38, "carbs": 45, "fat": 14 }
+          ] },
+          { "type": "dinner", "items": [
+            { "name": "Chicken fajitas", "quantity": "1 plate", "calories": 480, "protein": 40, "carbs": 40, "fat": 16 }
+          ] },
+          { "type": "snack", "items": [
+            { "name": "Rice cakes with peanut butter", "quantity": "2 cakes", "calories": 200, "protein": 6, "carbs": 22, "fat": 10 }
+          ] }
+        ]
+      }
+    },
+    {
+      "day": 7,
+      "isRestDay": true,
+      "notes": "Full rest day before starting the next cycle.",
+      "diet": {
+        "meals": [
+          { "type": "breakfast", "items": [
+            { "name": "Fruit and yogurt bowl", "quantity": "1 bowl", "calories": 320, "protein": 16, "carbs": 50, "fat": 6 }
+          ] },
+          { "type": "lunch", "items": [
+            { "name": "Veggie omelette", "quantity": "3 eggs", "calories": 360, "protein": 26, "carbs": 8, "fat": 24 }
+          ] },
+          { "type": "dinner", "items": [
+            { "name": "Roast chicken with sweet potato", "quantity": "1 plate", "calories": 470, "protein": 42, "carbs": 45, "fat": 12 }
+          ] }
+        ]
+      }
+    }
+  ]
+}
